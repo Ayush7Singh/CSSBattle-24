@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+* {
+    margin: 0px;
+    background: rgb(232, 235, 241);
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* -- ---------------------------------------SECTION 1----------------------------------------- -- */
+
+#div1 {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin: 20px auto;
+}
+#div1 img{
+    position:absolute;
+    display:flex;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:175px;
+    z-index: 1;
+}
+#section1-div1 {
+    width:300px;
+    display: flex;
+    margin:25px 0px 0px 0px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+
+
+#btn-discover {
+    display:flex;
+    margin:10px 10px;
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 6px 6px 6px 6px;
+   
+    align-items: center;
+    background: transparent;
+}
+#icon1{
+  color: rgb(79, 86, 98);
+  background-color: rgb(232, 235, 241);
+
+}
+
+.section1-h1 {
+    background:transparent;
+    font-size: 45px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+   
+}
+#section1-div2{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    align-items: center;
+    margin:65px auto;
+    width:500px;
+    justify-content: space-evenly;
+}
+
+
+#section1-h2 {
+    width:50px;
+    padding:10px 0px;
+   border-bottom: 3px solid black;
+}
+
+#section1-p1 {
+    max-width: 500px;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(79, 86, 98);
+    background: transparent;
+}
+
+
+#img1 {
+    
+    border-radius: 50%;
+    top:10px;
+    border: 3px solid white;;
+}
+
+#clip{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+   margin-bottom: 100px;
+   width:100%;
+   height:150px;
+   background:rgb(49, 49, 173);
+}
+#clip2{
+    clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+    border-color:#3396FF;
+   width:100%;
+   height:150px;
+   background:rgb(49, 49, 173);
+}
